@@ -7,6 +7,20 @@
   --second-hand-size: 2px;
 }
 
+@media screen and (max-width: 900px) {
+  :root {
+    --container-size: 200px;
+    --marking-size: 2rem;
+    --middle-pin-size: 10px;
+    --black-hand-size: 4px;
+    --second-hand-size: 1px;
+  }
+
+  .digit {
+    font-size: medium !important;
+  }
+}
+
 body {
   margin: 0;
   width: 100vw;
