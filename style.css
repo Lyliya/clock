@@ -1,23 +1,22 @@
 :root {
-  --container-size: 500px;
+  --container-size: 200px;
   --bg: #e6e3ca;
   --marking-size: 2rem;
-  --middle-pin-size: 20px;
-  --black-hand-size: 6px;
-  --second-hand-size: 2px;
+  --middle-pin-size: 10px;
+  --black-hand-size: 4px;
+  --second-hand-size: 1px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 900px) {
   :root {
-    --container-size: 200px;
-    --marking-size: 2rem;
-    --middle-pin-size: 10px;
-    --black-hand-size: 4px;
-    --second-hand-size: 1px;
+    --container-size: 500px;
+    --middle-pin-size: 20px;
+    --black-hand-size: 6px;
+    --second-hand-size: 2px;
   }
 
   .digit {
-    font-size: medium !important;
+    font-size: xx-large !important;
   }
 }
 
@@ -49,7 +48,7 @@ body {
 
 .digit {
   margin: 0;
-  font-size: xx-large;
+  font-size: medium;
   font-weight: bold;
   position: absolute;
   padding: 1rem;
